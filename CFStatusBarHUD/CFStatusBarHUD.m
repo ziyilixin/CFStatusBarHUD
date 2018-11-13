@@ -120,8 +120,14 @@ static NSTimer *timer_;
  */
 + (void)showWindow
 {
+    CGFloat windowH;
     //frame数据
-    CGFloat windowH = 20;
+    if (IS_IPHONEX) {
+        windowH = kNavigationBarHeight;
+    }
+    else {
+        windowH = kStatusBarHeight;
+    }
     CGRect frame = CGRectMake(0, -windowH, [UIScreen mainScreen].bounds.size.width, windowH);
 
     //显示窗口

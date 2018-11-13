@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kTopHeight 44.0
+#define kNavigationBarHeight (kStatusBarHeight + kTopHeight)
+#define kTabBarHeight ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:49)
+#define IS_IPHONEX ([[UIScreen mainScreen] bounds].size.height == 812 || [[UIScreen mainScreen] bounds].size.height == 896)
+
 @interface CFStatusBarHUD : NSObject
 
 /**

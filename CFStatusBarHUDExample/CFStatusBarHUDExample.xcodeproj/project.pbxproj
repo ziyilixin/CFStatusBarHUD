@@ -17,6 +17,10 @@
 		545814A21F4F3A1100DD8E44 /* CFStatusBarHUDExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 545814A11F4F3A1100DD8E44 /* CFStatusBarHUDExampleUITests.m */; };
 		545814B91F4F3AE500DD8E44 /* CFStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 545814B61F4F3AE500DD8E44 /* CFStatusBarHUD.bundle */; };
 		545814BA1F4F3AE500DD8E44 /* CFStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 545814B81F4F3AE500DD8E44 /* CFStatusBarHUD.m */; };
+		BBC03500219A78FF00BD332C /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = BBC034FC219A78FF00BD332C /* 4.png */; };
+		BBC03501219A78FF00BD332C /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BBC034FD219A78FF00BD332C /* 3.png */; };
+		BBC03502219A78FF00BD332C /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BBC034FE219A78FF00BD332C /* 2.png */; };
+		BBC03503219A78FF00BD332C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BBC034FF219A78FF00BD332C /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 		545814B61F4F3AE500DD8E44 /* CFStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CFStatusBarHUD.bundle; sourceTree = "<group>"; };
 		545814B71F4F3AE500DD8E44 /* CFStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStatusBarHUD.h; sourceTree = "<group>"; };
 		545814B81F4F3AE500DD8E44 /* CFStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFStatusBarHUD.m; sourceTree = "<group>"; };
+		BBC034FC219A78FF00BD332C /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		BBC034FD219A78FF00BD332C /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		BBC034FE219A78FF00BD332C /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		BBC034FF219A78FF00BD332C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,7 @@
 		5458147B1F4F3A1100DD8E44 /* CFStatusBarHUDExample */ = {
 			isa = PBXGroup;
 			children = (
+				BBC034FB219A78ED00BD332C /* Picture */,
 				545814B51F4F3AE500DD8E44 /* CFStatusBarHUD */,
 				5458147F1F4F3A1100DD8E44 /* AppDelegate.h */,
 				545814801F4F3A1100DD8E44 /* AppDelegate.m */,
@@ -155,6 +164,17 @@
 			);
 			name = CFStatusBarHUD;
 			path = ../../CFStatusBarHUD;
+			sourceTree = "<group>";
+		};
+		BBC034FB219A78ED00BD332C /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				BBC034FF219A78FF00BD332C /* 1.png */,
+				BBC034FE219A78FF00BD332C /* 2.png */,
+				BBC034FD219A78FF00BD332C /* 3.png */,
+				BBC034FC219A78FF00BD332C /* 4.png */,
+			);
+			path = Picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +287,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				545814B91F4F3AE500DD8E44 /* CFStatusBarHUD.bundle in Resources */,
+				BBC03503219A78FF00BD332C /* 1.png in Resources */,
 				5458148C1F4F3A1100DD8E44 /* LaunchScreen.storyboard in Resources */,
+				BBC03502219A78FF00BD332C /* 2.png in Resources */,
 				545814891F4F3A1100DD8E44 /* Assets.xcassets in Resources */,
+				BBC03501219A78FF00BD332C /* 3.png in Resources */,
+				BBC03500219A78FF00BD332C /* 4.png in Resources */,
 				545814871F4F3A1100DD8E44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,6 +559,7 @@
 				545814A81F4F3A1100DD8E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		545814A91F4F3A1100DD8E44 /* Build configuration list for PBXNativeTarget "CFStatusBarHUDExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +568,7 @@
 				545814AB1F4F3A1100DD8E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		545814AC1F4F3A1100DD8E44 /* Build configuration list for PBXNativeTarget "CFStatusBarHUDExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +577,7 @@
 				545814AE1F4F3A1100DD8E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
