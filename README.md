@@ -2,10 +2,10 @@
 一个简单易用的状态栏指示器
 
 屏幕截图
-![image]()
-![image]()
-![image]()
-![image]()
+![image](https://github.com/ziyilixin/CFStatusBarHUD/blob/master/CFStatusBarHUDExample/CFStatusBarHUDExample/Picture/1.png?raw=true)
+![image](https://github.com/ziyilixin/CFStatusBarHUD/blob/master/CFStatusBarHUDExample/CFStatusBarHUDExample/Picture/2.png?raw=true)
+![image](https://github.com/ziyilixin/CFStatusBarHUD/blob/master/CFStatusBarHUDExample/CFStatusBarHUDExample/Picture/3.png?raw=true)
+![image](https://github.com/ziyilixin/CFStatusBarHUD/blob/master/CFStatusBarHUDExample/CFStatusBarHUDExample/Picture/4.png?raw=true)
 
 ## 显示成功提示
 ```objc
