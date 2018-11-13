@@ -1,5 +1,12 @@
 # CFStatusBarHUD
 一个简单易用的状态栏指示器
+
+屏幕截图
+![image]()
+![image]()
+![image]()
+![image]()
+
 ## 显示成功提示
 ```objc
 [CFStatusBarHUD showSuccess:@"加载成功!"];
